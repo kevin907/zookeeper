@@ -1,0 +1,18 @@
+.git
+.gitignore
+bin/
+coverage.out
+coverage.html
+.env
+.env.*
+!.env.example
+.github/
+.vscode/
+.idea/
+.DS_Store
+*.log
+test/
+docs/*.pdf
+# Drop markdown except README (there is none yet; README ships in Task 13).
+*.md
+!README.md
