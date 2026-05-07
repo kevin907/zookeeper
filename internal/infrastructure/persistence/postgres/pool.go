@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/kevintrivedi/zoo-api/internal/platform/config"
+	"github.com/kevin907/zookeeper/internal/platform/config"
 )
 
 // ErrMissingURL is returned when the config does not carry a POSTGRES_URL.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/internal/platform/config"
+	"github.com/kevin907/zookeeper/internal/platform/config"
 )
 
 var envKeys = []string{

@@ -11,9 +11,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/dto"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/httperr"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/dto"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/httperr"
 )
 
 // ZooAssigner is the service-shaped dependency the handler consumes.

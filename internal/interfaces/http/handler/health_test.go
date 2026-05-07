@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/handler"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/httperr"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/handler"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/httperr"
 )
 
 type fakePinger struct{ err error }

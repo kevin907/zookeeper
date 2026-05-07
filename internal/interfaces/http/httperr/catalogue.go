@@ -8,7 +8,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
 )
 
 // RFC 7807 type URIs. Every problem+json the service emits uses one of these.

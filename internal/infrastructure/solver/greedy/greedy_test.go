@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/application/zoo/zoocontract"
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/solver/greedy"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/application/zoo/zoocontract"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/infrastructure/solver/greedy"
 )
 
 var greedyIDCounter atomic.Uint64

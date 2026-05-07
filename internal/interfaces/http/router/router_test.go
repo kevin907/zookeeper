@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	domzoo "github.com/kevintrivedi/zoo-api/internal/domain/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/handler"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/router"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	domzoo "github.com/kevin907/zookeeper/internal/domain/zoo"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/handler"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/router"
 )
 
 type fakeAssigner struct{}

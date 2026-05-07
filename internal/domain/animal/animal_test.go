@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
 )
 
 func TestNew_ValidatesInputs(t *testing.T) {

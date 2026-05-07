@@ -22,16 +22,16 @@ import (
 	tcpostgres "github.com/testcontainers/testcontainers-go/modules/postgres"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/persistence/memory"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/persistence/postgres"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/seed"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/solver/greedy"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/dto"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/handler"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/router"
-	"github.com/kevintrivedi/zoo-api/internal/platform/migrate"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/infrastructure/persistence/memory"
+	"github.com/kevin907/zookeeper/internal/infrastructure/persistence/postgres"
+	"github.com/kevin907/zookeeper/internal/infrastructure/seed"
+	"github.com/kevin907/zookeeper/internal/infrastructure/solver/greedy"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/dto"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/handler"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/router"
+	"github.com/kevin907/zookeeper/internal/platform/migrate"
 )
 
 // ensure nat import stays referenced even on older testcontainers APIs.

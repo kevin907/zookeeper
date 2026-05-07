@@ -5,8 +5,8 @@ package solver
 import (
 	"fmt"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/solver/greedy"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/infrastructure/solver/greedy"
 )
 
 // Default is the solver name used when none is configured.

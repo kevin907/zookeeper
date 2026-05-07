@@ -10,7 +10,7 @@ import (
 	"github.com/jackc/pgx/v5/stdlib"
 	"github.com/pressly/goose/v3"
 
-	"github.com/kevintrivedi/zoo-api/migrations"
+	"github.com/kevin907/zookeeper/migrations"
 )
 
 const dialect = "postgres"
