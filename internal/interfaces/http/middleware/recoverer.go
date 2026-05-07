@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/httperr"
-	"github.com/kevintrivedi/zoo-api/internal/platform/logging"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/httperr"
+	"github.com/kevin907/zookeeper/internal/platform/logging"
 )
 
 // Recoverer recovers from panics in downstream handlers, logs them at error

@@ -57,7 +57,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/kevintrivedi/zoo-api
+        - github.com/kevin907/zookeeper
 
 issues:
   max-issues-per-linter: 0

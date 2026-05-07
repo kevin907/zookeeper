@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/solver"
+	"github.com/kevin907/zookeeper/internal/infrastructure/solver"
 )
 
 func TestNewSolver(t *testing.T) {

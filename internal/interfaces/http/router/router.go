@@ -9,8 +9,8 @@ import (
 	"github.com/go-chi/chi/v5"
 	chimw "github.com/go-chi/chi/v5/middleware"
 
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/handler"
-	zoomw "github.com/kevintrivedi/zoo-api/internal/interfaces/http/middleware"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/handler"
+	zoomw "github.com/kevin907/zookeeper/internal/interfaces/http/middleware"
 )
 
 // New constructs the HTTP handler for the service.

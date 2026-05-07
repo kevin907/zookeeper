@@ -1,4 +1,4 @@
-module github.com/kevintrivedi/zoo-api
+module github.com/kevin907/zookeeper
 
 go 1.25.0
 

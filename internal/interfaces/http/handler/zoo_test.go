@@ -12,12 +12,12 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/stretchr/testify/require"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	domzoo "github.com/kevintrivedi/zoo-api/internal/domain/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/dto"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/handler"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/httperr"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	domzoo "github.com/kevin907/zookeeper/internal/domain/zoo"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/dto"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/handler"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/httperr"
 )
 
 type fakeAssigner struct {

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
 )
 
 // Domain errors returned by the Enclosure aggregate.

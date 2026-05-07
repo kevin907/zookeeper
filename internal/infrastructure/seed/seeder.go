@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
 )
 
 //go:embed animals.json

@@ -5,8 +5,8 @@ package memory
 import (
 	"context"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
 )
 
 // Compile-time assertion that Repository satisfies the application port.

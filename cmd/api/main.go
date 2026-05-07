@@ -15,16 +15,16 @@ import (
 	"syscall"
 	"time"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/persistence/memory"
-	pgrepo "github.com/kevintrivedi/zoo-api/internal/infrastructure/persistence/postgres"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/seed"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/solver"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/handler"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/router"
-	"github.com/kevintrivedi/zoo-api/internal/platform/config"
-	"github.com/kevintrivedi/zoo-api/internal/platform/logging"
-	"github.com/kevintrivedi/zoo-api/internal/platform/migrate"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/infrastructure/persistence/memory"
+	pgrepo "github.com/kevin907/zookeeper/internal/infrastructure/persistence/postgres"
+	"github.com/kevin907/zookeeper/internal/infrastructure/seed"
+	"github.com/kevin907/zookeeper/internal/infrastructure/solver"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/handler"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/router"
+	"github.com/kevin907/zookeeper/internal/platform/config"
+	"github.com/kevin907/zookeeper/internal/platform/logging"
+	"github.com/kevin907/zookeeper/internal/platform/migrate"
 )
 
 const readyzTimeout = 500 * time.Millisecond

@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	"github.com/kevintrivedi/zoo-api/internal/infrastructure/seed"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/infrastructure/seed"
 )
 
 type fakeInserter struct {

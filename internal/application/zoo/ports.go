@@ -4,8 +4,8 @@ package zoo
 import (
 	"context"
 
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	domzoo "github.com/kevintrivedi/zoo-api/internal/domain/zoo"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	domzoo "github.com/kevin907/zookeeper/internal/domain/zoo"
 )
 
 // Repository returns the fixed roster of animals to be assigned.

@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	"github.com/kevintrivedi/zoo-api/internal/domain/zoo"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	"github.com/kevin907/zookeeper/internal/domain/zoo"
 )
 
 var idCounter atomic.Uint64

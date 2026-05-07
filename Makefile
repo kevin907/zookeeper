@@ -1,4 +1,4 @@
-MODULE  := github.com/kevintrivedi/zoo-api
+MODULE  := github.com/kevin907/zookeeper
 BIN     := ./bin/api
 
 .PHONY: fmt lint test test-int cover build run up down seed migrate-up migrate-down tidy

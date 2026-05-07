@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kevintrivedi/zoo-api/migrations"
+	"github.com/kevin907/zookeeper/migrations"
 )
 
 // TestEmbeddedFS_ContainsExpectedMigrations is a cheap guard: if go:embed

@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-chi/chi/v5/middleware"
 
-	"github.com/kevintrivedi/zoo-api/internal/platform/logging"
+	"github.com/kevin907/zookeeper/internal/platform/logging"
 )
 
 // RequestLogger is a slog-backed request logger: it logs method, path,

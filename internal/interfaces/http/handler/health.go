@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/interfaces/http/httperr"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/interfaces/http/httperr"
 )
 
 // Pinger is the dependency the readiness handler needs: something that can

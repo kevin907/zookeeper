@@ -3,9 +3,9 @@
 package dto
 
 import (
-	appzoo "github.com/kevintrivedi/zoo-api/internal/application/zoo"
-	"github.com/kevintrivedi/zoo-api/internal/domain/animal"
-	domzoo "github.com/kevintrivedi/zoo-api/internal/domain/zoo"
+	appzoo "github.com/kevin907/zookeeper/internal/application/zoo"
+	"github.com/kevin907/zookeeper/internal/domain/animal"
+	domzoo "github.com/kevin907/zookeeper/internal/domain/zoo"
 )
 
 // ZooResponse is the body returned from GET /api/v1/zoos/{enclosures}.
